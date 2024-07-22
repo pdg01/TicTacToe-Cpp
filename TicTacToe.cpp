@@ -202,6 +202,8 @@ public:
         if (i == 1)
         {
             cout << "==>\aPlayer " << --player << " win ";
+            cout << endl;
+            detail_option();
         }
         else
             cout << "==>\aGame draw";
